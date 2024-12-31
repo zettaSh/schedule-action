@@ -9,3 +9,5 @@ jobs:
      - name: Test
        run: echo "Test run"
      - run: echo '${{ toJSON(github) }}'
+     - run: echo ${{ github.actor }}
+    
